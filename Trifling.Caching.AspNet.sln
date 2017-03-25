@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB22133-0F2D-49D1-97BC-3654ED321F3B}") = "Trifling.Caching.AspNet.UnitTests", "Trifling.Caching.AspNet.UnitTests\Trifling.Caching.AspNet.UnitTests.xproj", "{915D8E33-6D5A-41CB-877D-1BA70ABEFB7D}"
+EndProject
+Project("{8BB22133-0F2D-49D1-97BC-3654ED321F3B}") = "Trifling.Caching.AspNet", "Trifling.Caching.AspNet\Trifling.Caching.AspNet.xproj", "{8A9E6533-0189-46D9-95F3-177E9B1F78FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{915D8E33-6D5A-41CB-877D-1BA70ABEFB7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{915D8E33-6D5A-41CB-877D-1BA70ABEFB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{915D8E33-6D5A-41CB-877D-1BA70ABEFB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{915D8E33-6D5A-41CB-877D-1BA70ABEFB7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A9E6533-0189-46D9-95F3-177E9B1F78FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A9E6533-0189-46D9-95F3-177E9B1F78FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A9E6533-0189-46D9-95F3-177E9B1F78FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A9E6533-0189-46D9-95F3-177E9B1F78FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{915D8E33-6D5A-41CB-877D-1BA70ABEFB7D} = {9608C733-3C7C-4589-B16D-95236820C006}
+		{8A9E6533-0189-46D9-95F3-177E9B1F78FD} = {9608C733-3C7C-4589-B16D-95236820C006}
+	EndGlobalSection
+EndGlobal

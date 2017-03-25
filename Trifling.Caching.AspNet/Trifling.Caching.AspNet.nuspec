@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Trifling.Caching.AspNet</id>
+        <version>0.4.0-beta</version>
+        <title>Trifling Caching using ASP.Net caching</title>
+        <authors>Trifling Contributors</authors>
+        <owners>JamesHough</owners>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/JamesHough/trifling.caching.aspnet</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A Trifling library for caching with the ASP.Net caching engine.</description>
+        <summary>Trifling Caching for ASP.Net</summary>
+        <releaseNotes>0.4.0-beta
+* Initial release</releaseNotes>
+        <copyright>Copyright 2017</copyright>
+        <tags>caching wrapper aspnet</tags>
+        <dependencies>
+            <group targetFramework=".NETStandard1.6">
+                <dependency id="NETStandard.Library" version="1.6.1" />
+                <dependency id="Trifling.Common" version="0.3.0-beta" />
+                <dependency id="Trifling.Caching" version="0.4.0-beta" />
+                <dependency id="Microsoft.Extensions.Caching.Abstractions" version="1.1.0" />
+            </group>
+            <group targetFramework=".NETFramework4.5.2">
+                <dependency id="Trifling.Common" version="0.3.0-beta" />
+                <dependency id="Trifling.Caching" version="0.4.0-beta" />
+                <dependency id="Microsoft.Extensions.Caching.Abstractions" version="1.1.0" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\Release\net452\Trifling.Caching.AspNet.dll" target="lib\net452\Trifling.Caching.AspNet.dll" />
+        <file src="bin\Release\net452\Trifling.Caching.AspNet.pdb" target="lib\net452\Trifling.Caching.AspNet.pdb" />
+        <file src="bin\Release\net452\Trifling.Caching.AspNet.xml" target="lib\net452\Trifling.Caching.AspNet.xml" />
+        <file src="bin\Release\netstandard1.6\Trifling.Caching.AspNet.dll" target="lib\netstandard1.6\Trifling.Caching.AspNet.dll" />
+        <file src="bin\Release\netstandard1.6\Trifling.Caching.AspNet.pdb" target="lib\netstandard1.6\Trifling.Caching.AspNet.pdb" />
+        <file src="bin\Release\netstandard1.6\Trifling.Caching.AspNet.xml" target="lib\netstandard1.6\Trifling.Caching.AspNet.xml" />
+    </files>
+</package>
